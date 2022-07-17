@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+import Navbar from "./Styles/Navbar/Navbar";
+import Hero from "./Styles/Hero/Hero";
+import Companies from "./Styles/Companies/Companies";
+import About from "./Styles/About/About";
+
+
+const BackgroundWrapper = styled.div`
+  background-image: url("background.png");
+  background-repeat: repeat;
+  height: 300vh;
+  width: 100%;
+`;
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BackgroundWrapper>
+      <Navbar />
+      <Hero />
+      <Companies />
+      <About />
+    </BackgroundWrapper>
   );
 }
 
