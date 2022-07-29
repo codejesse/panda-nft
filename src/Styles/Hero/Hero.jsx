@@ -19,7 +19,7 @@ function Hero() {
                 <HeroImages>
                     <HeroCard>
                         <HeroImage>
-                            <img src="/Header-img1.png" alt="Header-1" style={{ width: "90%" }} />
+                            <img src="/Header.png" alt="Header-1" style={{ width: "90%" }} />
                         </HeroImage>
                         <CardDetails>
                             <CardTitle><CardTitleText>"Hamlet Contemplates ...</CardTitleText><Chip></Chip></CardTitle>

@@ -38,9 +38,37 @@ function HotSales() {
                 </SalesCard>
                 <SalesCard>
                     <CardImage />
+                    <SalesCardDetails>
+                        <Title><TitleText>"Lamalamaspit..</TitleText><SalesChip></SalesChip></Title>
+                        <BottomCardDetails>
+                            <Avatar><img src="panda.png" alt="avatar" /></Avatar>
+                            <NameWrapper>
+                                <NameTitle>Creator</NameTitle>
+                                <Creator>Mark</Creator>
+                            </NameWrapper>
+                            <PriceDiv>
+                                <Bid>Current Bid</Bid>
+                                <SalesPrice>4.99 ETH</SalesPrice>
+                            </PriceDiv>
+                        </BottomCardDetails>
+                    </SalesCardDetails>
                 </SalesCard>
                 <SalesCard>
                     <CardImage />
+                    <SalesCardDetails>
+                        <Title><TitleText>"Lamalamaspit..</TitleText><SalesChip></SalesChip></Title>
+                        <BottomCardDetails>
+                            <Avatar><img src="panda.png" alt="avatar" /></Avatar>
+                            <NameWrapper>
+                                <NameTitle>Creator</NameTitle>
+                                <Creator>Mark</Creator>
+                            </NameWrapper>
+                            <PriceDiv>
+                                <Bid>Current Bid</Bid>
+                                <SalesPrice>4.99 ETH</SalesPrice>
+                            </PriceDiv>
+                        </BottomCardDetails>
+                    </SalesCardDetails>
                 </SalesCard>
             </SalesCardWrapper>
             <ViewMoreButton><CtaText>View More</CtaText></ViewMoreButton>

@@ -49,8 +49,6 @@ export const FeaturedCard = styled.div`
 export const CardImageHolder = styled.div`
     width: 266px;
     height: 225px;
-    background: url(Header-img1.png);
-    background-repeat: no-repeat;
     border-radius: 16px;
     margin: auto;
     margin-top: 5px;
@@ -64,13 +62,10 @@ export const CardImageHolder = styled.div`
 export const ArtistProfilePic = styled.div`
     width: 104px;
     height: 104px;
-    background: url(image);
     border: 2px solid #FFFFFF;
     border-radius: 360px;
     margin: auto;
     margin-top: -50px;
-    background-image: url("Logo192.png");
-    background-repeat: no-repeat;
     background-size: contain;
 `;
 

@@ -92,11 +92,10 @@ export const CardImage = styled.div`
 export const SalesCardDetails = styled.div`
     display: flex;
     justify-content: center;
-    border: 1px solid white;
     flex-direction: column;
     width: 100%;
     margin: auto;
-    margin-top: -2px;
+    margin-top: -7px;
 `;
 
 //for the bottom information for the hot sales card
@@ -113,15 +112,18 @@ export const Avatar = styled.div`
     left: 823px;
     top: 733px;
     border-radius: 16px;
+    margin: auto;
 `;
 
 export const NameWrapper = styled.div`
     display: flex;
     flex-direction: column;
+    margin: auto;
+    margin-top: -15px;
 `;
 
 export const NameTitle = styled.p`
-    font-size: 14px;
+    font-size: 20px;
     color: #8F9CA9;
     font-family: sans-serif;
 `;
@@ -133,13 +135,13 @@ export const Creator = styled.p`
     font-size: 18px;
     line-height: 28px;
     color: #FFFFFF;
-    margin-top: -1rem;
+    margin-top: -1.2rem;
 `;
 
 export const PriceDiv = styled.div`
     display: flex;
     flex-direction: column;
-    margin-left: 90px;
+    margin-left: 120px;
     margin-top: -0.9rem;
 `;
 
@@ -156,25 +158,25 @@ export const SalesPrice = styled.p`
     font-size: 20px;
     color: #FFFFFF;
     margin-top: -1rem;
+    margin-left: 10px;
 `;
 
 export const Title = styled.div`
     display: flex;
     flex-direction: row;
-    width: 50%;
     justify-content: center;
-    border: 1px solid red;
     font-family: sans-serif;
     color: white;
     
 `;
 
 export const TitleText = styled.p`
-    font-family: 'Urbanist';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 32px;
+    margin: 20px;
 `;
 
 export const SalesChip = styled.div`
@@ -184,4 +186,5 @@ export const SalesChip = styled.div`
     border-radius: 8px;
     text-align: center;
     margin: auto;
+    margin-left: 110px;
 `;

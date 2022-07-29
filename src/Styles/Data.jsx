@@ -1,6 +1,6 @@
-export const images = [
+export const HeaderImg = [
     {
-        "image1": "",
-        "image2": ""
+        "image1": "/Header.png",
+        "image2": "/Header-img2.png"
     }
 ]
