@@ -1,4 +1,4 @@
-import { AboutCard, AboutHeader, AboutIcon, AboutIconContainer, AboutWrapper, CardTitle, CardWrapper } from "./AboutStyles";
+import { AboutCard, AboutHeader, AboutIcon, AboutIconContainer, AboutWrapper, CardPara, CardTitle, CardWrapper } from "./AboutStyles";
 
 
 function About() {
@@ -10,18 +10,27 @@ function About() {
                     <AboutIconContainer>
                         <AboutIcon></AboutIcon>
                         <CardTitle>Set Up Your Wallet</CardTitle>
+                        <CardPara>Once you’ve set up your wallet of choice,
+                            connect it to OpenSea by clicking
+                            the wallet icon in the top right corner.</CardPara>
                     </AboutIconContainer>
                 </AboutCard>
                 <AboutCard>
                     <AboutIconContainer>
                         <AboutIcon></AboutIcon>
                         <CardTitle>Add Your NFTs</CardTitle>
+                        <CardPara>Once you’ve set up your wallet of choice,
+                            connect it to OpenSea by clicking
+                            the wallet icon in the top right corner.</CardPara>
                     </AboutIconContainer>
                 </AboutCard>
                 <AboutCard>
                     <AboutIconContainer>
                         <AboutIcon></AboutIcon>
                         <CardTitle>List Them For Sale</CardTitle>
+                        <CardPara>Once you’ve set up your wallet of choice,
+                            connect it to OpenSea by clicking
+                            the wallet icon in the top right corner.</CardPara>
                     </AboutIconContainer>
                 </AboutCard>
             </CardWrapper>

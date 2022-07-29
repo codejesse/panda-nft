@@ -26,6 +26,10 @@ export const AboutHeader = styled.h1`
 export const CardWrapper = styled.div`
     display: flex;
     flex-direction: row;
+    @media (max-width: 1200px) {
+        flex-direction: column;
+        width: 100%;
+    }
 `;
 
 export const AboutCard = styled.div`
@@ -34,6 +38,11 @@ export const AboutCard = styled.div`
     background: #272D37;
     border-radius: 16px;  
     margin: auto;
+    @media (max-width: 1200px) {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 30px;
+    }
 `;
 
 export const AboutIconContainer = styled.div`
@@ -62,4 +71,19 @@ export const CardTitle = styled.h2`
     text-transform: capitalize;
     color: #FFFFFF;
     text-align: center;
+`;
+
+export const CardPara = styled.p`
+    font-family: sans-serif;
+    width: 306px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #ADB9C7;
+    @media (max-width: 1200px) {
+        width: 100%;
+    }
 `;

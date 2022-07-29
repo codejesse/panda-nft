@@ -31,7 +31,6 @@ export const HeroDetails = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: left;
-    /* border: 1px solid red; */
     width: 50%;
     margin: auto;
     margin-left: -0.1rem;
@@ -42,13 +41,16 @@ export const HeroDetails = styled.div`
 `;
 
 export const HeroTextHeader = styled.h1`
-    font-size: 64px;
-    font-family: sans-serif;
+    font-size: 56px;
+    font-family: "Poppins", sans-serif;
     color: white;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 80px;
 `;
 
 export const HeroPara = styled.p`
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
     color: white;
     font-weight: 400;
     font-size: 16px;

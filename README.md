@@ -1,4 +1,4 @@
 # NFT website project
 
-## Progress(...25%)
+## Progress(...25% completed)
 
