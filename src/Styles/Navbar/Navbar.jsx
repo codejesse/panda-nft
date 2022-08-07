@@ -6,7 +6,7 @@ function Navbar() {
         <NavWrapper>
             <NavContainer>
                 <NavLogo>
-                    <img src="/panda.png" alt="logo" width="40px" height="40px" />
+                    <img src="/Panda.png" alt="logo" width="40px" height="40px" />
                     <LogoText>Panda NFT</LogoText>
                 </NavLogo>
                 <NavItems>
