@@ -23,25 +23,25 @@ function Featured() {
                 <FeaturedCard>
                 <CardImageHolder><img src="b2.png" alt="background" /></CardImageHolder>
                     <ArtistProfilePic><img src="Artist2.png" alt="artist-2"/></ArtistProfilePic>
-                    <ArtistName>CryptoPunks</ArtistName>
+                    <ArtistName>Doodle</ArtistName>
                     <ArtistStats>
-                        <Stats>818.2k</Stats>
+                        <Stats>74.9k</Stats>
                     </ArtistStats>
                 </FeaturedCard>
                 <FeaturedCard>
                 <CardImageHolder><img src="b3.png" alt="background" /></CardImageHolder>
                     <ArtistProfilePic><img src="Artist3.png" alt="artist-3"/></ArtistProfilePic>
-                    <ArtistName>CryptoPunks</ArtistName>
+                    <ArtistName>Bored Ape Yacht</ArtistName>
                     <ArtistStats>
-                        <Stats>818.2k</Stats>
+                        <Stats>378.7k</Stats>
                     </ArtistStats>
                 </FeaturedCard>
                 <FeaturedCard>
                 <CardImageHolder><img src="b4.png" alt="background" /></CardImageHolder>
                     <ArtistProfilePic><img src="Artist4.png" alt="artist-4"/></ArtistProfilePic>
-                    <ArtistName>CryptoPunks</ArtistName>
+                    <ArtistName>Capsule House</ArtistName>
                     <ArtistStats>
-                        <Stats>818.2k</Stats>
+                        <Stats>19.3k</Stats>
                     </ArtistStats>
                 </FeaturedCard>
             </FeaturedCardContainer>

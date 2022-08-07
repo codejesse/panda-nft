@@ -77,6 +77,9 @@ export const NavCta = styled.button`
    color: white;
    cursor: pointer;
    margin-right: -14px;
+   &:hover {
+    background-color: #1E50FF;
+   }
 `;
 
 export const CtaText = styled.p`

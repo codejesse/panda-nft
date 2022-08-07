@@ -4,13 +4,13 @@ export const FooterWrapper = styled.div`
     display: flex;
     width: 100%;
     height: 400px;
+    /* background-color: #1E50FF; */
     border: 1px solid white;
 `;
 
 export const FooterDetails = styled.div`
     display: flex;
     flex-direction: row;
-    border: 1px solid white;
     width: 100%;
     @media (max-width: 1200px) {
         flex-direction: column;
@@ -20,12 +20,11 @@ export const FooterDetails = styled.div`
 export const LeftDetails = styled.div`
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     margin: auto;
     margin-top: 32px;
     margin-left: 42px;
     @media (max-width: 1200px) {
-        margin: auto;
+        margin: 10px;
         width: 100%;
     }
 
@@ -35,7 +34,6 @@ export const LogoHolder = styled.div`
     display: flex;
     flex-direction: row;
     width: 100%;
-    border: 1px solid white;
     color: white;
     font-family: 'Poppins', sans-serif;
     margin: auto;
@@ -56,12 +54,12 @@ export const RightDetails = styled.div`
     display: flex;
     width: auto;
     margin: auto;
+    border: 1px solid white;
 `;
 
 export const HyperLinks = styled.div`
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
     @media (max-width: 1200px) {
         flex-direction: column;
         width: 100%;
@@ -84,7 +82,6 @@ export const HyperOne = styled.div`
     & ul {
         margin-top: -1rem;
         text-decoration: none;
-        border: 1px solid orange;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         font-weight: 400;

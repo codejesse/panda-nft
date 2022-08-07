@@ -22,7 +22,7 @@ function Hero() {
                             <img src="/Header.png" alt="Header-1" style={{ width: "90%" }} />
                         </HeroImage>
                         <CardDetails>
-                            <CardTitle><CardTitleText>"Hamlet Contemplates ...</CardTitleText><Chip></Chip></CardTitle>
+                            <CardTitle><CardTitleText>"Rainbow Contemplates ...</CardTitleText><Chip></Chip></CardTitle>
                             <CardBottomDetails>
                                 <CreatorAvatar />
                                 <CreatorNameWrapper>
@@ -38,7 +38,7 @@ function Hero() {
                     </HeroCard>
                     <HeroCard2>
                         <HeroImage>
-                            <img src="/Header-img2.png" alt="Header-1" style={{ width: "90%" }} />
+                            <img src="/N1.png" alt="Header-1" style={{ width: "90%", borderRadius: "16px" }} />
                         </HeroImage>
                     </HeroCard2>
                 </HeroImages>

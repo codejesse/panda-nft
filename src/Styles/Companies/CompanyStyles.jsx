@@ -7,7 +7,7 @@ export const CompaniesWrapper = styled.div`
     flex-direction: row;
     width: 100%;
     height: 60px;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     @media (max-width: 1000px) {
         //for now
         display: none;

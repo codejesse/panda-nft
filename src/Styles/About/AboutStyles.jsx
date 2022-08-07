@@ -21,6 +21,10 @@ export const AboutHeader = styled.h1`
     width: 40%;
     margin: auto;
     padding: 1rem;
+    @media (max-width: 1200px) {
+        font-size: 30px;
+        width: fit-content;
+    }
 `;
 
 export const CardWrapper = styled.div`

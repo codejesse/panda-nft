@@ -3,15 +3,18 @@ import styled from "styled-components";
 export const HotSalesWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
-    margin: 3.2rem;
+    margin: 3.1rem;
     padding-top: 5rem;
+    border: 1px solid white;
+    @media (max-width: 800px) {
+        margin: 5px;
+        width: 100%;
+    }
 `;
 
 export const HotSalesHeader = styled.div`
     display: flex;
     flex-direction: row;
-    border: 1px solid white;
     width: 100%;
 `;
 
@@ -33,7 +36,7 @@ export const StoreButtons = styled.button`
     background: rgba(30, 80, 255, 0.1);
     padding: 16px;
     color: white;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -54,6 +57,10 @@ export const SalesTitle = styled.h1`
     line-height: 64px;
     text-transform: capitalize;
     color: #FFFFFF;
+    @media (max-width: 900px) {
+        text-align: center;
+        width: 100%;
+    }
 `;
 
 export const SalesCardWrapper = styled.div`
@@ -76,17 +83,23 @@ export const SalesCard = styled.div`
     border-radius: 24px;
     @media (max-width: 1200px) {
         margin: auto;
-        width: 100%;
+        width: auto;
         flex-direction: column;
+        padding: 10px;
     }
 `;
 
 export const CardImage = styled.div`
     height: 352px;
-    background: url("Header-img1.png");
-    background-repeat: no-repeat;
-    margin: 20px;
+    margin: 25px;
     border-radius: 24px;
+    cursor: pointer;
+    width: fit-content;
+    border: 2px solid white;
+    @media (max-width: 800px) {
+        width: fit-content;
+        margin: auto;
+    }
 `;
 
 export const SalesCardDetails = styled.div`
@@ -109,17 +122,17 @@ export const BottomCardDetails = styled.div`
 export const Avatar = styled.div`
     width: 56px;
     height: 56px;
-    left: 823px;
-    top: 733px;
-    border-radius: 16px;
+    border-radius: 16\px;
     margin: auto;
+    margin-top: -5px;
+    margin-right: 5px;
 `;
 
 export const NameWrapper = styled.div`
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: -15px;
+    margin-top: -17px;
 `;
 
 export const NameTitle = styled.p`
@@ -143,6 +156,9 @@ export const PriceDiv = styled.div`
     flex-direction: column;
     margin-left: 120px;
     margin-top: -0.9rem;
+    @media (max-width: 800px) {
+        margin-left: 14px;
+    }
 `;
 
 export const Bid = styled.p`

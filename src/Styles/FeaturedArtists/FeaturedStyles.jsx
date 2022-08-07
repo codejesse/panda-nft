@@ -54,6 +54,7 @@ export const CardImageHolder = styled.div`
     margin-top: 5px;
     @media (max-width: 1200px) {
         width: 100%;
+        width: fit-content;
         justify-content: center;
         border: 1px solid white;
     }
@@ -66,7 +67,6 @@ export const ArtistProfilePic = styled.div`
     border-radius: 360px;
     margin: auto;
     margin-top: -50px;
-    background-size: contain;
 `;
 
 export const ArtistName = styled.div`

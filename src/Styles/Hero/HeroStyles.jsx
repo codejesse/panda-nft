@@ -18,14 +18,14 @@ export const HeroContainer = styled.div`
    }
 `;
 
-export const GradientDiv = styled.div`
-   width: 638px;
-   height: 444.28px;
-   left: -313px;
-   top: -209px;
-   background: rgba(30, 80, 255, 0.75);
-   filter: blur(700px);  
-`;
+// export const GradientDiv = styled.div`
+//    width: 638px;
+//    height: 444.28px;
+//    left: -313px;
+//    top: -209px;
+//    background: rgba(30, 80, 255, 0.75);
+//    filter: blur(700px);  
+// `;
 
 export const HeroDetails = styled.div`
     display: flex;
@@ -47,6 +47,9 @@ export const HeroTextHeader = styled.h1`
     font-weight: 700;
     font-style: normal;
     line-height: 80px;
+    @media (max-width: 1300px) {
+        text-align: left;
+    }
 `;
 
 export const HeroPara = styled.p`
@@ -56,6 +59,9 @@ export const HeroPara = styled.p`
     font-size: 16px;
     margin-top: -1rem;
     line-height: 32px;
+    @media (max-width: 1300px) {
+        text-align: left;
+    }
 `;
 
 export const ButtonWrapper = styled.div`
@@ -63,7 +69,7 @@ export const ButtonWrapper = styled.div`
     justify-content: inherit;
     width: 100%;
     @media (max-width: 800px) {
-        justify-content: center;
+        justify-content: left;
     } 
 `;
 
@@ -105,6 +111,9 @@ export const HeroCard = styled.div`
     height: 400px;
     background: #272D37;
     border-radius: 24px;
+    @media (max-width: 800px) {
+        margin: auto;
+    }
 `;
 
 //for the top information in the hero card
@@ -216,7 +225,7 @@ export const HeroImage = styled.div`
 
 export const HeroCard2 = styled.div`
     width: 300px;
-    height: 320px;  
+    height: 315px;  
     background: #272D37;
     border-radius: 24px;
     margin: auto;
@@ -227,5 +236,6 @@ export const HeroCard2 = styled.div`
         margin: auto;
         height: 220px;
         margin-top: 0;
+        display: none;
     }
 `;

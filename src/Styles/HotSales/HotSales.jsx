@@ -10,21 +10,21 @@ function HotSales() {
             <HotSalesHeader>
                 <SalesTitle>Hot NFTs</SalesTitle>
                 <ButtonsTray>
-                    <StoreButtons>Music</StoreButtons>
-                    <StoreButtons>Art</StoreButtons>
-                    <StoreButtons>Sports</StoreButtons>
-                    <StoreButtons>Virtual</StoreButtons>
-                    <StoreButtons>Videos</StoreButtons>
+                    <StoreButtons>🎧 Music</StoreButtons>
+                    <StoreButtons>🎨 Art</StoreButtons>
+                    <StoreButtons>🏆 Sports</StoreButtons>
+                    <StoreButtons>💻 Virtual</StoreButtons>
+                    <StoreButtons>🎥 Videos</StoreButtons>
                     <StoreButtons>More</StoreButtons>
                 </ButtonsTray>
             </HotSalesHeader>
             <SalesCardWrapper>
                 <SalesCard>
-                    <CardImage />
+                <CardImage><img src="N2.png" alt="Nft1" /></CardImage>
                     <SalesCardDetails>
                         <Title><TitleText>"Lamalamaspit..</TitleText><SalesChip></SalesChip></Title>
                         <BottomCardDetails>
-                            <Avatar><img src="panda.png" alt="avatar" /></Avatar>
+                            <Avatar><img src="c1.png" alt="avatar" /></Avatar>
                             <NameWrapper>
                                 <NameTitle>Creator</NameTitle>
                                 <Creator>Mark</Creator>
@@ -37,11 +37,11 @@ function HotSales() {
                     </SalesCardDetails>
                 </SalesCard>
                 <SalesCard>
-                    <CardImage />
+                    <CardImage><img src="N1.png" alt="Nft1" /></CardImage>
                     <SalesCardDetails>
                         <Title><TitleText>"Lamalamaspit..</TitleText><SalesChip></SalesChip></Title>
                         <BottomCardDetails>
-                            <Avatar><img src="panda.png" alt="avatar" /></Avatar>
+                            <Avatar><img src="c2.png" alt="avatar" /></Avatar>
                             <NameWrapper>
                                 <NameTitle>Creator</NameTitle>
                                 <Creator>Mark</Creator>
@@ -54,11 +54,11 @@ function HotSales() {
                     </SalesCardDetails>
                 </SalesCard>
                 <SalesCard>
-                    <CardImage />
+                <CardImage><img src="N3.png" alt="Nft1" /></CardImage>
                     <SalesCardDetails>
                         <Title><TitleText>"Lamalamaspit..</TitleText><SalesChip></SalesChip></Title>
                         <BottomCardDetails>
-                            <Avatar><img src="panda.png" alt="avatar" /></Avatar>
+                            <Avatar><img src="c3.png" alt="avatar" /></Avatar>
                             <NameWrapper>
                                 <NameTitle>Creator</NameTitle>
                                 <Creator>Mark</Creator>

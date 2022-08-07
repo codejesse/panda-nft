@@ -16,6 +16,8 @@ const BackgroundWrapper = styled.div`
   background-size: cover;
   height: auto;
   width: auto;
+  margin: 0;
+  border: 1px solid black;
 `;
 
 
@@ -26,7 +28,7 @@ function App() {
       <Hero />
       <Companies />
       <About />
-      <Auctions />
+      {/* <Auctions /> */}
       <Featured />
       <HotSales />
       <Prefooter />
