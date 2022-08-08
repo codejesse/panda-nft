@@ -4,7 +4,6 @@ export const FeaturedWrapper = styled.div`
     display: flex;
     flex-direction: column;
     margin: 3.2rem;
-    border: 1px solid red;
     padding-top: 3rem;
 `;
 

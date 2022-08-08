@@ -18,14 +18,6 @@ export const HeroContainer = styled.div`
    }
 `;
 
-// export const GradientDiv = styled.div`
-//    width: 638px;
-//    height: 444.28px;
-//    left: -313px;
-//    top: -209px;
-//    background: rgba(30, 80, 255, 0.75);
-//    filter: blur(700px);  
-// `;
 
 export const HeroDetails = styled.div`
     display: flex;
@@ -138,7 +130,7 @@ export const CreatorAvatar = styled.div`
     height: 56px;
     left: 823px;
     top: 733px;
-    background: url("panda.png");
+    background: url("/panda.png");
     background-repeat: no-repeat;
     border-radius: 16px;
 `;

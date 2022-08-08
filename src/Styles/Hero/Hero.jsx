@@ -4,7 +4,6 @@ import {
     HeroTextHeader, HeroImages, HeroCard, HeroPara, HeroCard2, HeroImage, CardDetails, CardTitle, CardTitleText, CardBottomDetails, CreatorAvatar, CreatorNameWrapper, CreatorTitle, CreatorName, PriceWrapper, CurrentBid, PriceText, ButtonWrapper
 } from "./HeroStyles";
 
-// import Data from "../Data"
 
 function Hero() {
     return (

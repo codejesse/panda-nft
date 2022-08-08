@@ -4,7 +4,6 @@ export const AboutWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid white;
     margin: 3.5rem;
 `;
 
@@ -17,7 +16,6 @@ export const AboutHeader = styled.h1`
     text-align: center;
     text-transform: capitalize;
     color: #FFFFFF;
-    border: 1px solid white;
     width: 40%;
     margin: auto;
     padding: 1rem;

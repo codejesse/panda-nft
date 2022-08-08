@@ -5,9 +5,8 @@ export const HotSalesWrapper = styled.div`
     flex-direction: column;
     margin: 3.1rem;
     padding-top: 5rem;
-    border: 1px solid white;
     @media (max-width: 800px) {
-        margin: 5px;
+        margin: auto;
         width: 100%;
     }
 `;
@@ -70,7 +69,6 @@ export const SalesCardWrapper = styled.div`
     margin-bottom: 30px;
     flex-wrap: wrap;
     @media (max-width: 500px) {
-        margin: auto;
         width: 100%;
         flex-direction: column;
     }
@@ -86,6 +84,7 @@ export const SalesCard = styled.div`
         width: auto;
         flex-direction: column;
         padding: 10px;
+        margin-bottom: 1rem;
     }
 `;
 
@@ -95,7 +94,6 @@ export const CardImage = styled.div`
     border-radius: 24px;
     cursor: pointer;
     width: fit-content;
-    border: 2px solid white;
     @media (max-width: 800px) {
         width: fit-content;
         margin: auto;

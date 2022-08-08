@@ -4,8 +4,6 @@ export const FooterWrapper = styled.div`
     display: flex;
     width: 100%;
     height: 400px;
-    /* background-color: #1E50FF; */
-    border: 1px solid white;
 `;
 
 export const FooterDetails = styled.div`
@@ -54,7 +52,6 @@ export const RightDetails = styled.div`
     display: flex;
     width: auto;
     margin: auto;
-    border: 1px solid white;
 `;
 
 export const HyperLinks = styled.div`
